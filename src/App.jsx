@@ -8,6 +8,7 @@ function App() {
     return (
         <BrowserRouter basename="/movie-db">
             <div className="App">
+                <h1>Movies Search</h1>
                 <Routes>
                     <Route path="/" element={<MoovieSearch />} />
                     <Route path="/movie-db" element={<MoovieSearch />} />

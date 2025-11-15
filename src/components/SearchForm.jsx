@@ -7,7 +7,7 @@ const SearchForm = ({ searchTerm, setSearchTerm }) => {
                     type="search"
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
-                    placeholder="Search movies"
+                    placeholder="Type your request..."
                 />
         </form>
     );
