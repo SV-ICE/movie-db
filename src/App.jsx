@@ -6,7 +6,7 @@ import NotFoundPage from "./components/NotFoundPage";
 
 function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/movie-db">
             <div className="App">
                 <Routes>
                     <Route path="/" element={<MoovieSearch />} />
