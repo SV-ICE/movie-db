@@ -18,6 +18,7 @@
 	&:hover {
 		border: 1px solid #ff8df552;
 		box-shadow: 0 0 10px #ff8df552;
+		border-radius: 20px;
 		h2 {
 			color: #dfdfdf;
 		}

@@ -10,6 +10,7 @@ function App() {
             <div className="App">
                 <Routes>
                     <Route path="/" element={<MoovieSearch />} />
+                    <Route path="/movie-db" element={<MoovieSearch />} />
                     <Route path="/movie/:id" element={<MovieDetailPage />} />
                     <Route path="*" element={<NotFoundPage />} />
                 </Routes>

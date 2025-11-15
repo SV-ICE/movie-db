@@ -12,11 +12,11 @@
 		border: none;
 		outline: none;
 		background-color: #ffeafc1c;
-		padding: 10px 20px;
+		padding: 15px 25px;
 		border-radius: 10px;
 		transition: all 0.3s ease;
 		&::placeholder {
-			color: #3d3d3d;
+			color: #d5d5d5;
 			text-align: center;
 		}
 		&:focus {
