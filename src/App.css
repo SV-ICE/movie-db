@@ -1,0 +1,22 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background: #313131;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100%;
+  min-height: 100dvh;
+  background: linear-gradient(180deg,rgba(49, 49, 49, 1) 10%, rgba(107, 107, 107, 0.7) 49%, rgba(49, 49, 49, 1) 90%);
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
